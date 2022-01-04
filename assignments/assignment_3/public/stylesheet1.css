@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.container{
+    text-align: center;
+    margin-top: 150px;
+}
+h1{
+    width: 200px;
+    background-color: black;
+    color: white;
+    margin-left: 580px;
+    margin-bottom: 10px;
+}
+input{
+    padding: 10px;
+}
+button{
+    font-size: 19px;
+    padding: 5px;
+}

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            Home
+        </title>
+        <link href="/style2.css" rel="stylesheet">
+    </head>
+    <body>
+        <form method="get" action="/form">
+            <button type="submit">Add user</button>
+        </form>
+        <div class="container">
+            <%
+             users.forEach(user=>{%>
+                <div class="user_data">
+                    <div><%= user.name %></div>
+                    <div class="email_content"><%= user.email %></div>
+                </div>
+
+             <%});
+            %>
+        </div>
+    </body>
+</html>
