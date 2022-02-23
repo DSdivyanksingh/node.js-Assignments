@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+button{
+    margin-top: 85px;
+    margin-left: 550px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
+.container{
+    /* margin-top: 100px; */
+    text-align: center;
+    padding-left: 435px;
+
+}
+.user_data{
+    display: flex;
+    flex-direction: row;
+}
+.email_content{
+    margin-left: 100px;
+}
